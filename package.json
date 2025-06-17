@@ -1,0 +1,28 @@
+{
+    "name": "lighthouse-accessibility-audit",
+    "version": "1.0.0",
+    "description": "Lighthouse accessibility audit tool that generates JPG reports",
+    "type": "module",
+    "main": "scripts/lighthouse-audit.js",
+    "scripts": {
+        "audit": "node scripts/lighthouse-audit.js",
+        "start": "node scripts/lighthouse-audit.js"
+    },
+    "dependencies": {
+        "lighthouse": "^11.4.0",
+        "chrome-launcher": "^1.1.0",
+        "node-html-to-image": "^4.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "keywords": [
+        "lighthouse",
+        "accessibility",
+        "audit",
+        "html-to-image",
+        "performance"
+    ],
+    "author": "",
+    "license": "MIT"
+}
